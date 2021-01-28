@@ -120,7 +120,3 @@ async function resolve() {
 }
 
 document.getElementById("button").addEventListener('click', () => resolve());
-
-setTimeout(() => {
-  (document.getElementById("input")).value = "brad.zil";
-}, 100);
